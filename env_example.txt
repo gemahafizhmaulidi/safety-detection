@@ -1,0 +1,29 @@
+# Flask Configuration
+SECRET_KEY=your-secret-key-here
+FLASK_DEBUG=True
+
+# Model Configuration
+MODEL_DIR=model
+DEFAULT_MODEL=BESTSModel.pt
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=5000
+
+# File Upload Configuration
+UPLOAD_FOLDER=uploads
+MAX_CONTENT_LENGTH=16777216
+
+# Detection Configuration
+DEFAULT_CONFIDENCE=0.5
+
+# Camera Configuration
+CAMERA_INDEX=0
+STREAM_FPS=30
+
+# CORS Configuration
+CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+
+# Production Settings (uncomment for production)
+# FLASK_DEBUG=False
+# SECRET_KEY=your-production-secret-key
