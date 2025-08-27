@@ -1,0 +1,9 @@
+@echo off
+echo Starting Safety Equipment Detection App...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting Streamlit app...
+streamlit run app.py --server.port 8501
+pause
